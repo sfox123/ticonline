@@ -11977,12 +11977,12 @@ input[type="color"] {
 /*----------------------------------------*/
 .td-history-year {
   font-weight: 500;
-  font-size: 120px;
+  font-size: 64px;
   line-height: 1;
 }
 @media (max-width: 575px) {
   .td-history-year {
-    font-size: 100px;
+    font-size: 24px;
   }
 }
 .td-history-title-wrap {
@@ -12074,4 +12074,3 @@ input[type="color"] {
   border: 1px solid var(--td-common-line);
   z-index: 2;
 }
-

@@ -15,20 +15,23 @@ export const BlogItem = ({
 }) => {
   return (
     <article className="td-postbox-item mb-60">
-      <div className="td-postbox-thumb p-relative mb-40">
+      {/* <div className="td-postbox-thumb p-relative mb-40">
         <img className="w-100" src={src} alt="thumb" />
         <span className="td-postbox-badge">{tag}</span>
-      </div>
+      </div> */}
       <div className="td-postbox-content">
-        <h2 className="td-postbox-title mb-25">
-          <Link to={href}>{title}</Link>
-        </h2>
+        <h2 className="td-postbox-title mb-25">{title}</h2>
 
         <div className="td-postbox-text mb-20 pb-15">
-          <p>{description}</p>
+          <ul>
+            {description.map((item, index) => (
+              <li>
+                <p key={index}>{item}</p>
+              </li>
+            ))}
+          </ul>
         </div>
-
-        <div className="td-postbox-meta">
+        {/* <div className="td-postbox-meta">
           <div className="td-postbox-user">
             <a href="#">
               <img src={userImage} alt="uder" />
@@ -59,7 +62,7 @@ export const BlogItem = ({
               </a>
             </span>
           </div>
-        </div>
+        </div> */}
       </div>
     </article>
   );
