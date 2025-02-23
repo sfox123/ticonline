@@ -54,7 +54,7 @@ export const Navbar = ({ hidePortfolio = false }) => {
         </li>
 
         <li>
-          <Link to="/blog">About</Link>
+          <Link to="/about">About</Link>
           {/* <ul className="td-submenu submenu">
             <li>
               <Link to="/blog">Blog</Link>

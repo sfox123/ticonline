@@ -12,7 +12,7 @@ export const HeaderThree = () => {
     <header>
       <div className="td-header-area td-transparent">
         {/* top */}
-        <div className="td-header-3-top td-black-bg-2">
+        {/* <div className="td-header-3-top td-black-bg-2">
           <div className="container container-1730">
             <div className="row">
               <div className="col-12">
@@ -25,7 +25,7 @@ export const HeaderThree = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* bottom */}
         <div
